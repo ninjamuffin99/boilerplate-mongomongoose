@@ -132,6 +132,9 @@ const queryChain = (done) => {
   {
     if (err) return console.log(err);
 
+    console.log("FUNNNY OUTPUT");
+    console.log(data);
+
     done(err, data);
   });
 
